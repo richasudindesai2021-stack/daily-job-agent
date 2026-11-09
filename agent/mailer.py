@@ -111,8 +111,7 @@ def send_daily_list(picks, folder: str, attach_pdfs: bool = True, run_info: dict
             f"<tr><td>{r['#']}</td><td><b>{escape(str(r['company']))}</b><br><small>{escape(str(r['size']))}</small></td>"
             f"<td><a href='{escape(str(r['url']))}'>{escape(str(r['title']))}</a><br><small>{escape(str(r['location']))}"
             f"<br>Opens: {escape(str(r.get('apply_site', '')))}</small></td>"
-            f"<td style='text-align:center'>{escape(str(r.get('score', '')))}</td><td><small>{escape(why)}</small></td>"
-            f"<td><small>{escape(str(r.get('sponsorship', '')))}</small></td></tr>")
+            f"<td style='text-align:center'>{escape(str(r.get('score', '')))}</td><td><small>{escape(why)}</small></td></tr>")
     intro = ""
     if run_info:
         intro = (f"Checked {run_info.get('found', 0):,} postings; {run_info.get('passed', 0):,} matched your filters. "
@@ -126,8 +125,7 @@ def send_daily_list(picks, folder: str, attach_pdfs: bool = True, run_info: dict
             "Click 'I applied' there and the role moves to your Tracker; 'Save' keeps it for later.\n\n" + stop)
     html = (f"<div style='font-family:Arial,sans-serif'><p>{escape(intro)}</p>"
             "<table cellpadding='6' style='border-collapse:collapse;font-size:13px' border='1'>"
-            "<tr style='background:#f2f2f2'><th>#</th><th>Company</th><th>Role (click to apply)</th><th>Fit</th><th>Why</th>"
-            "<th>Sponsorship wording</th></tr>" + "".join(html_rows) + "</table>"
+            "<tr style='background:#f2f2f2'><th>#</th><th>Company</th><th>Role (click to apply)</th><th>Fit</th><th>Why</th></tr>" + "".join(html_rows) + "</table>"
             "<p style='font-size:12px;color:#666'>Read each tailored resume before you send it. The same list is waiting in "
             "the app: click <b>I applied</b> and the role moves to your Tracker with the resume you used; <b>Save</b> keeps "
             f"it for later.</p><p style='font-size:11px;color:#999'>{escape(stop)}</p></div>")
