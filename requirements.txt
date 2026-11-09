@@ -1,0 +1,13 @@
+streamlit>=1.50
+openai>=1.40
+requests>=2.31
+pandas>=2.0
+reportlab>=4.0
+pypdf>=4.0
+openpyxl>=3.1
+tzdata>=2024.1
+python-docx>=1.1
+docx2pdf>=0.1.8; sys_platform == "win32" or sys_platform == "darwin"
+pdfplumber>=0.11
+python-calamine>=0.2
+pynacl>=1.5
