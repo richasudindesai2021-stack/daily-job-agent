@@ -208,11 +208,11 @@ def mark(flag: str, value=True):
 
 # ---------------- header & navigation ----------------
 QUIPS = ["Recruiters skim a resume in about 6 seconds. Yours gets tailored in about 20.",
-         "No more “posted 30+ days ago.” Nothing here is older than 3 days.",
+         "No more “posted 30+ days ago.” Newest roles first, nothing older than 2 weeks.",
          "Your resume, except this time it actually read the job post.",
          "Less doom-scrolling job boards. More hitting Apply.",
          "Sponsorship wording checked before you fall in love with a role.",
-         "30 roles a day. Zero cover letters written at 2 a.m. (well, fewer)."]
+         "30 fresh roles in your inbox every morning. No more 2 a.m. job-board scrolling."]
 import random as _rnd
 _quip = st.session_state.setdefault("quip", _rnd.choice(QUIPS))
 st.markdown(f"""<div class="hero"><div class="eyebrow">[ <b>ai job search</b> · sponsor-friendly · refreshed daily ]</div>
