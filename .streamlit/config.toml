@@ -1,0 +1,18 @@
+[theme]
+base = "dark"
+primaryColor = "#F7A8C8"
+backgroundColor = "#0A0A0A"
+secondaryBackgroundColor = "#1B1B1B"
+textColor = "#F2F0EA"
+linkColor = "#F7A8C8"
+borderColor = "#2A2A2A"
+baseRadius = "10px"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+maxUploadSize = 600
