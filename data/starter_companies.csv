@@ -1,0 +1,55 @@
+company,ats,token,size,industry
+Airbnb,greenhouse,airbnb,big,consumer tech; travel
+Stripe,greenhouse,stripe,big,fintech
+Pinterest,greenhouse,pinterest,big,consumer tech; fashion & retail
+Lyft,greenhouse,lyft,big,consumer tech; mobility
+Dropbox,greenhouse,dropbox,big,software
+Databricks,greenhouse,databricks,big,data & AI
+Coinbase,greenhouse,coinbase,big,fintech
+Reddit,greenhouse,reddit,big,consumer tech
+Instacart,greenhouse,instacart,big,consumer tech; retail
+Robinhood,greenhouse,robinhood,big,fintech
+Palantir,lever,palantir,big,data & AI
+Spotify,lever,spotify,big,consumer tech; media
+Twilio,greenhouse,twilio,big,software
+Roblox,greenhouse,roblox,big,gaming
+Cloudflare,greenhouse,cloudflare,big,software
+Datadog,greenhouse,datadog,big,software
+MongoDB,greenhouse,mongodb,big,software
+Affirm,greenhouse,affirm,big,fintech
+Anthropic,greenhouse,anthropic,big,data & AI
+OpenAI,ashby,openai,big,data & AI
+Figma,greenhouse,figma,mid,software; design
+Discord,greenhouse,discord,mid,consumer tech
+Duolingo,greenhouse,duolingo,mid,consumer tech; education
+Gusto,greenhouse,gusto,mid,software; fintech
+Brex,greenhouse,brex,mid,fintech
+Asana,greenhouse,asana,mid,software
+Faire,greenhouse,faire,mid,retail; marketplace
+Warby Parker,greenhouse,warbyparker,mid,fashion & retail; healthcare
+Glossier,greenhouse,glossier,mid,fashion & retail; beauty
+Rent the Runway,greenhouse,renttherunway,mid,fashion & retail
+Stitch Fix,greenhouse,stitchfix,mid,fashion & retail; data & AI
+The RealReal,greenhouse,therealreal,mid,fashion & retail; luxury
+Flatiron Health,greenhouse,flatironhealth,mid,healthcare
+Oscar Health,greenhouse,oscar,mid,healthcare
+Zocdoc,greenhouse,zocdoc,mid,healthcare
+Plaid,lever,plaid,mid,fintech
+Notion,ashby,notion,mid,software
+Ramp,ashby,ramp,mid,fintech
+Grammarly,greenhouse,grammarly,mid,software; data & AI
+Scale AI,greenhouse,scaleai,mid,data & AI
+Chime,greenhouse,chime,mid,fintech
+Toast,greenhouse,toast,mid,software; restaurants
+Linear,ashby,linear,small,software
+Replit,ashby,replit,small,software; data & AI
+Hex,ashby,hex,small,data & AI
+Watershed,greenhouse,watershed,small,climate & sustainability
+Cityblock Health,greenhouse,cityblockhealth,small,healthcare
+Abridge,ashby,abridge,small,healthcare; data & AI
+Harvey,ashby,harvey,small,data & AI; legal
+Cohere,ashby,cohere,small,data & AI
+Whatnot,ashby,whatnot,small,consumer tech; marketplace
+Perplexity,ashby,perplexity,small,data & AI
+Vercel,greenhouse,vercel,small,software
+Deel,ashby,deel,small,software; HR
